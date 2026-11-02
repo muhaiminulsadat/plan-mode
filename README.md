@@ -30,7 +30,31 @@ This repository is ready to use across all modern AI coding tools and environmen
 
 ---
 
-## 🚀 How to Use
+## 🚀 Installation & Usage
+
+### ⚡ 1-Line CLI Install (Recommended: `skills` CLI)
+Install directly into your current project or globally across all agents without manual cloning:
+
+```bash
+# Add to current project (auto-detects Cursor, Claude, Antigravity, etc.)
+npx skills add muhaiminulsadat/plan-mode
+
+# Install globally for all agents on your machine
+npx skills add muhaiminulsadat/plan-mode -g
+
+# Or if you have the skills CLI installed (npm i -g skills):
+skills add muhaiminulsadat/plan-mode
+```
+
+### 📦 Install via npm
+You can also add it as a developer dependency in any Node project:
+```bash
+npm install -D github:muhaiminulsadat/plan-mode
+# or
+pnpm add -D github:muhaiminulsadat/plan-mode
+```
+
+---
 
 ### 1. In Google Antigravity
 Clone or place this folder in your Antigravity skills directory:
